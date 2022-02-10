@@ -58,7 +58,7 @@ class Game
                     echo "- Très bien, suis-moi donc ! Ahahaha " . $enterToContinue;
                     rtrim(fgets(STDIN));
                     break;
-                case 'non' || 'None':
+                case 'non' || 'Non':
                     $gilbertPresent = 2;
                     echo "- D'accord, je te laisse tranquille. Peut-être qu'on se reverra ahahaahahaahaa" . $enterToContinue;
                     rtrim(fgets(STDIN));
